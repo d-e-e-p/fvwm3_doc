@@ -79,8 +79,7 @@ instead of the name obtained from the environment variable
   <listitem>
 <para>Puts X transactions in synchronous mode, which dramatically slows
 things down, but guarantees that fvwm's internal error messages
-are correct. Also causes fvwm to output debug messages while
-running.</para>
+are correct.</para>
   </listitem>
   </varlistentry>
   <varlistentry>
@@ -93,9 +92,8 @@ running.</para>
 <replaceable>config-file</replaceable>
 instead of
 <filename>~/.fvwm/config</filename>
-as its initialization file.  This is equivalent to
--c '<fvwmref cmd="Read"/>
-<replaceable>config-file</replaceable>'.</para>
+as its initialization file. <envar>$FVWM_USERDIR</envar> can also be used to 
+change location of default user directory <filename>~/.fvwm</filename>.</para> 
   </listitem>
   </varlistentry>
   <varlistentry>
